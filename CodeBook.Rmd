@@ -1,0 +1,250 @@
+---
+title: "CodeBook"
+output: html_document
+---
+normalised the data into a -1 to 1 range so unitlless
+This is the average of the XXXXXXXXXX field from the original data set
+
+## 1. subject
+### contain the identifier of the subjects from 1 to 30
+
+## 2. activity
+### activity performed by the subjects: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIR, SITTING, STANDING, LAYING
+
+## 3. timeBodyAccelerationMeanX
+### average of the mean of the time domain body linear acceleration signal in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 4. timeBodyAccelerationMeanY
+### average of the mean of the time domain body linear acceleration in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 5. timeBodyAccelerationMeanZ
+### average of the mean of the time domain body linear acceleration in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 6. timeGravityAccelerationMeanX
+### average of the mean of the time domain gravity linear acceleration in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 7. timeGravityAccelerationMeanY
+### average of the mean of the time domain gravity linear acceleration in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 8. timeGravityAccelerationMeanZ
+### average of the mean of the time domain gravity linear acceleration in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 9. timeBodyAccelerationJerkMeanX
+### average of the mean of the time body acceleration jerk signal in the X axis. The jerk signal was the derived in time from the time domain body linear acceleration in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 10. timeBodyAccelerationJerkMeanY
+### average of the mean of the time body acceleration jerk signal in the Y axis. The jerk signal was derived in time from the time domain body linear acceleration in the Y axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 11. timeBodyAccelerationJerkMeanZ
+### average of the mean of the time body acceleration jerk signal in the Z axis. The jerk signal was derived in time from the time domain body linear acceleration in the Z axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 12. timeBodyGyroscopeMeanX
+### average of the mean of the time domain angular velocity in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 13. timeBodyGyroscopeMeanY
+### average of the mean of the time domain angular velocity in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 14. timeBodyGyroscopeMeanZ
+### average of the mean of the time domain angular velocity in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 15. timeBodyGyroscopeJerkMeanX
+### average of the mean of the time angular velocity jerk signal in the X axis calculated for each subject and for each activity. The original timeBodyGyroscopeJerkMeanX values are the derived in time from the time domain body angular velocity in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 16. timeBodyGyroscopeJerkMeanY
+### average of the mean of the time angular velocity jerk signal in the Y axis calculated for each subject and for each activity. The original timeBodyGyroscopeJerkMeanY values are  the derived in time from the time domain body angular velocity in the Y axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 17. timeBodyGyroscopeJerkMeanZ
+### average of the mean of the time angular velocity jerk signal in the Z axis calculated for each subject and for each activity. The original timeBodyGyroscopeJerkMeanZ values are the derived in time from the time domain body angular velocity in the Z axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 18. timeBodyAccelerationMagnitudeMean
+### average of the magnitude of the mean of the three-dimensional time body acceleration signalcalculated for each subject and for each activity. The original timeBodyAccelerationMagnitudeMean values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 19. timeGravityAccelerationMagnitudeMean
+### average of the magnitude of the of the three-dimensional time gravity acceleration signa. The original timeGravityAccelerationMagnitudeMean values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 20. timeBodyAccelerationJerkMagnitudeMean
+### average of the magnitude of the mean of the three-dimensional time body acceleration signal. The original timeBodyAccelerationJerkMagnitudeMean values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 21. timeBodyGyroscopeMagnitudeMean
+### average of the magnitude of the mean of the three-dimensional time domain angular velocity. The original timeBodyGyroscopeMagnitudeMean values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 22. timeBodyGyroscopeJerkMagnitudeMean
+### average of the magnitude of mean of the the three-dimensional time domain angular velocity jerk signals. The original timeBodyGyroscopeJerkMagnitudeMean values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 23. frequencyBodyAccelerationMeanX
+### average of the mean of the frequency domain body linear acceleration signal in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 24. frequencyBodyAccelerationMeanY
+### average of the mean of the frequency domain body linear acceleration in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 25. frequencyBodyAccelerationMeanZ
+### average of the mean of the frequency domain body linear acceleration in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 26. frequencyBodyAccelerationMeanFreqX
+### average of the mean of the frequency of the frequency domain body linear acceleration in the X axis calculated for each subject and for each activity. The mean frequency was obtained by weighted average of the frequency components. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 27. frequencyBodyAccelerationMeanFreqY
+### average of the mean of the frequency of the frequency domain body linear acceleration in the Y axis calculated for each subject and for each activity. The mean frequency was obtained by weighted average of the frequency components. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 28. frequencyBodyAccelerationMeanFreqZ
+### average of the mean of the frequency of the frequency domain body linear acceleration in the Z axis calculated for each subject and for each activity. The mean frequency was obtained by weighted average of the frequency components. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 29. frequencyBodyAccelerationJerkMeanX
+### average of the mean of the frequency body acceleration jerk signal in the X axis calculated for each subject and for each activity. The jerk signal was the derived in time from the frequency domain body linear acceleration in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 30. frequencyBodyAccelerationJerkMeanY
+### average of the mean of the frequency body acceleration jerk signal in the Y axis calculated for each subject and for each activity. The jerk signal was the derived in time from the frequency domain body linear acceleration in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 31. frequencyBodyAccelerationJerkMeanZ
+### average of the mean of the frequency body acceleration jerk signal in the Z axis calculated for each subject and for each activity. The jerk signal was the derived in time from the frequency domain body linear acceleration in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 32. frequencyBodyAccelerationJerkMeanFreqX
+### average of the mean of the frequency of the jerk signal in the X axis calculated for each subject and for each activity. The mean frequency was obtained by weighted average of the frequency components. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 33. frequencyBodyAccelerationJerkMeanFreqY
+### average of the mean of the frequency of the jerk signal in the Y axis calculated for each subject and for each activity. The mean frequency was obtained by weighted average of the frequency components. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 34. frequencyBodyAccelerationJerkMeanFreqZ
+### average of the mean of the frequency of the jerk signal in the Z axis calculated for each subject and for each activity. The mean frequency was obtained by weighted average of the frequency components. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 35. frequencyBodyGyroscopeMeanX
+### average of the mean of the frequency domain angular velocity in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 36. frequencyBodyGyroscopeMeanY
+### average of the mean of the frequency domain angular velocity in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 37. frequencyBodyGyroscopeMeanZ
+### average of the mean of the frequency domain angular velocity in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 38. frequencyBodyGyroscopeMeanFreqX
+### average of the mean of the frequency of the frequency domain angular velocity in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 39. frequencyBodyGyroscopeMeanFreqY
+### average of the mean of the frequency of the frequency domain angular velocity in the y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 40. frequencyBodyGyroscopeMeanFreqZ
+### average of the mean of the frequency of the frequency domain angular velocity in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 41. frequencyBodyAccelerationMagnitudeMean
+### average of the magnitude of the mean of the three-dimensional frequency body acceleration signal calculated for each subject and for each activity. The original frequencyBodyAccelerationMagnitudeMean values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 42. frequencyBodyAccelerationMagnitudeMeanFreq
+### average of the mean of the frequency of the frequency domain magnitude of the three-dimensional frequency body acceleration signal calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 43. frequencyBodyAccelerationJerkMagnitudeMean
+### average of the magnitude of the mean of the three-dimensional jerk signal of the body acceleration calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 44. frequencyBodyAccelerationJerkMagnitudeMeanFreq
+### average of the mean of the frequency of the frequency of the magnitude of the three-dimensional jerk signal of the body acceleration calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 45. frequencyBodyGyroscopeMagnitudeMean
+### average of the magnitude of the mean of the three-dimensional frequency body angular velocity signal calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 46. frequencyBodyGyroscopeMagnitudeMeanFreq
+### average of the mean of the frequency of the frequency domain magnitude of the three-dimensional frequency body angular velocity signal calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 47. frequencyBodyGyroscopeJerkMagnitudeMean
+### average of the magnitude of mean of the the three-dimensional jerk signal of the angulor velocity calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 48. frequencyBodyAccelerationJerkMagnitudeMeanFreq
+### average of the mean of the frequency of the frequency of the magnitude of the three-dimensional jerk signal of the angular velocity calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 49. timeBodyAccelerationstdX
+### average of the standart deviation of the time domain body linear acceleration signal in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 50. timeBodyAccelerationstdY
+### average of the standart deviation of the time domain body linear acceleration in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 51. timeBodyAccelerationStdZ
+### average of the standart deviation of the time domain body linear acceleration in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 52. timeGravityAccelerationStdX
+### average of the standart deviation of the time domain gravity linear acceleration in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 53. timeGravityAccelerationStdY
+### average of the standart deviation of the time domain gravity linear acceleration in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 54. timeGravityAccelerationStdZ
+### average of the standart deviation of the time domain gravity linear acceleration in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 55. timeBodyAccelerationJerkStdX
+### average of the standart deviation of the time body acceleration jerk signal in the X axis. The jerk signal was the derived in time from the time domain body linear acceleration in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 56. timeBodyAccelerationJerkStdY
+### average of the standart deviation of the time body acceleration jerk signal in the Y axis. The jerk signal was derived in time from the time domain body linear acceleration in the Y axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 57. timeBodyAccelerationJerkStdZ
+### average of the standart deviation of the time body acceleration jerk signal in the Z axis. The jerk signal was derived in time from the time domain body linear acceleration in the Z axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 58. timeBodyGyroscopeStdX
+### average of the standart deviation of the time domain angular velocity in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 59. timeBodyGyroscopeStdY
+### average of the standart deviation of the time domain angular velocity in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 60. timeBodyGyroscopeStdZ
+### average of the standart deviation of the time domain angular velocity in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 61. timeBodyGyroscopeJerkStdX
+### average of the standart deviation of the time angular velocity jerk signal in the X axis calculated for each subject and for each activity. The original timeBodyGyroscopeJerkStdX values are the derived in time from the time domain body angular velocity in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 62. timeBodyGyroscopeJerkStdY
+### average of the standart deviation of the time angular velocity jerk signal in the Y axis calculated for each subject and for each activity. The original timeBodyGyroscopeJerkStdY values are  the derived in time from the time domain body angular velocity in the Y axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 63. timeBodyGyroscopeJerkStdZ
+### average of the standart deviation of the time angular velocity jerk signal in the Z axis calculated for each subject and for each activity. The original timeBodyGyroscopeJerkStdZ values are the derived in time from the time domain body angular velocity in the Z axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 64. timeBodyAccelerationMagnitudeStd
+### average of the standart deviation of the magnitude of the three-dimensional time body acceleration signalcalculated for each subject and for each activity. The original timeBodyAccelerationMagnitudeStd values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 65. timeGravityAccelerationMagnitudestd
+### average of the magnitude of the standart deviation of the three-dimensional time gravity acceleration signa. The original timeGravityAccelerationMagnitudestd values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 66. timeBodyAccelerationJerkMagnitudestd
+### average of the magnitude of the standart deviation of the three-dimensional time body acceleration signal. The original timeBodyAccelerationJerkMagnitudestd values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 67. timeBodyGyroscopeMagnitudestd
+### average of the magnitude of the standart deviation of the three-dimensional time domain angular velocity. The original timeBodyGyroscopeMagnitudestd values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 68. timeBodyGyroscopeJerkMagnitudestd
+### average of the magnitude of standart deviation of the the three-dimensional time domain angular velocity jerk signals. The original timeBodyGyroscopeJerkMagnitudestd values were calculated using the Euclidean norm. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 69. frequencyBodyAccelerationstdX
+### average of the standart deviation of the frequency domain body linear acceleration signal in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 70. frequencyBodyAccelerationstdY
+### average of the standart deviation of the frequency domain body linear acceleration in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 71. frequencyBodyAccelerationstdZ
+### average of the standart deviation of the frequency domain body linear acceleration in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 72. frequencyBodyAccelerationJerkstdX
+### average of the standart deviation of the frequency body acceleration jerk signal in the X axis calculated for each subject and for each activity. The jerk signal was the derived in time from the frequency domain body linear acceleration in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 73. frequencyBodyAccelerationJerkstdY
+### average of the standart deviation of the frequency body acceleration jerk signal in the Y axis calculated for each subject and for each activity. The jerk signal was the derived in time from the frequency domain body linear acceleration in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 74. frequencyBodyAccelerationJerkstdZ
+### average of the standart deviation of the frequency body acceleration jerk signal in the Z axis calculated for each subject and for each activity. The jerk signal was the derived in time from the frequency domain body linear acceleration in the X axis. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 75. frequencyBodyGyroscopestdX
+### average of the standart deviation of the frequency domain angular velocity in the X axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 76. frequencyBodyGyroscopestdY
+### average of the standart deviation of the frequency domain angular velocity in the Y axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 77. frequencyBodyGyroscopestdZ
+### average of the standart deviation of the frequency domain angular velocity in the Z axis calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 78. frequencyBodyAccelerationMagnitudestd
+### average of the magnitude of the standart deviation of the three-dimensional frequency body acceleration signal calculated for each subject and for each activity.  Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 79. frequencyBodyAccelerationJerkMagnitudestd
+### average of the magnitude of the standart deviation of the three-dimensional jerk signal of the body acceleration calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 80. frequencyBodyGyroscopeMagnitudestd
+### average of the magnitude of the std of the three-dimensional frequency body angular velocity signal calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
+## 81. frequencyBodyGyroscopeJerkMagnitudestd
+### average of the magnitude of standart deviation of the the three-dimensional jerk signal of the angulor velocity calculated for each subject and for each activity. Unitless as it is calculated from data that had been normalized into a -1 to 1 range.
+
